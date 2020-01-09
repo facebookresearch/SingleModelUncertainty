@@ -1,0 +1,74 @@
+{
+    "seed" : [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+    ],
+    "dataset" : [
+        "bostonHousing",
+        "concrete",
+        "energy",
+        "kin8nm",
+        "naval-propulsion-plant",
+        "power-plant",
+        "wine-quality-red",
+        "yacht"
+    ],
+    "lr" : [
+        1e-2,
+        1e-3,
+        1e-4
+    ],
+    "n_epochs" : [
+        5000
+    ],
+    "wd" : [
+        0,
+        1e-3,
+        1e-2,
+        1e-1,
+        1
+    ],
+    "alpha" : [
+        0.1
+    ],
+    "n_learners" : [
+        100,
+        1000
+    ],
+    "min_samples_leaf" : [
+        3,
+        9,
+        15
+    ],
+    "min_samples_split" : [
+        3,
+        9,
+        15
+    ],
+    "max_depth" : [
+        3,
+        10
+    ],
+    "max_features" : [
+        3,
+        5
+    ]
+}
